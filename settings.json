@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "your.server.ip",
-    "port": 25565,
+    "ip": "TFSofficial.aternos.me",
+    "port": 50647,
     "version": "",
     "try-creative": false
   },
