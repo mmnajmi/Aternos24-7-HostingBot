@@ -1,17 +1,4 @@
 
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000;
-
-app.get('/', (req, res) => {
-  res.send('Aternos AFK Bot is Online!');
-});
-
-app.listen(port, () => {
-  console.log(`Web server listening on port ${port}`);
-});
-
-
 'use strict';
 
 const mineflayer = require('mineflayer');
