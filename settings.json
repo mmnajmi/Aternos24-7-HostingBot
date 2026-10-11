@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "TFSofficial.aternos.me",
+    "ip": "corgidor.aternos.host",
     "port": 50647,
     "version": "",
     "try-creative": false
