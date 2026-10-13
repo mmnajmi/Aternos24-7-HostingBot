@@ -29,7 +29,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 5000,
+      "repeat-delay": 25000,
       "messages": [
         "I'm a regular player",
         "I like to play Minecraft!"
