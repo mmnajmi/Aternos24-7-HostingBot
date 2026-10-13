@@ -376,7 +376,7 @@ function createBot() {
     clearBotTimeouts();
     connectionTimeoutId = setTimeout(() => {
       if (!botState.connected) {
-        console.log('[Bot] Connection timeout - no spawn received');
+        console.log('[Bot] Connection timeout - fuck you');
         try { bot.removeAllListeners(); bot.end(); } catch (e) {  }
         bot = null;
         scheduleReconnect();
