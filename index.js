@@ -370,19 +370,7 @@ function createBot() {
       hideErrors: false,
       checkTimeoutInterval: 7200000
     });
-
-
-   bot.on('login', () => {
-  console.log("[Fix] Force triggering spawn to bypass Geyser packet lag...");
-  if (bot._client) {
-    bot._client.emit('packet', { name: 'login', data: {} });
-    bot.emit('spawn');
-  }
-});
-
-
-
-    
+ 
     bot.loadPlugin(pathfinder);
 
     clearBotTimeouts();
