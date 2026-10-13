@@ -8,7 +8,7 @@
   "server": {
     "ip": "TFSofficial.aternos.me",
     "port": 50647,
-    "version": "1.21.1",
+    "version": false,
     "try-creative": false
   },
   "position": {
